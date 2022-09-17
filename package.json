@@ -1,7 +1,8 @@
 {
-  "name": "lord-of-rings-sdk",
+  "name": "lord-of-the-rings-sdk",
   "version": "1.0.0",
   "description": "",
+  "keywords": ["lord of the rings", "sdk"],
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/types/index.d.ts",
   "scripts": {
@@ -16,7 +17,8 @@
   "author": "Andrey Karapetyan",
   "license": "ISC",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "design.md"
   ],
   "exports": {
     ".": {

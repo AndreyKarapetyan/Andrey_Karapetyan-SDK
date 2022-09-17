@@ -1,13 +1,15 @@
+# The Lord Of the Rings SDK
+
 ## Installation
 
 ```bash
-$ npm install lord-of-rings-sdk
+$ npm install lord-of-the-rings-sdk
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add lord-of-rings-sdk
+$ yarn add lord-of-the-rings-sdk
 ```
 
 ## Initialization
@@ -15,7 +17,7 @@ $ yarn add lord-of-rings-sdk
 You need to provide your API key, which you can get on https://the-one-api.dev/
 
 ```ts
-import LordOfRingsSDK from 'lord-of-rings-sdk';
+import LordOfRingsSDK from 'lord-of-the-rings-sdk';
 
 const sdk = new LordOfRingsSDK({ apiKey: 'Your API key goes here' });
 ```
